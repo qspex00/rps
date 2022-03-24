@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(234, 237, 237);
+}
+
+.game {
+    display: flex;
+    justify-content: space-evenly;
+}
+.player {
+    display: flex;
+    flex-direction: column;
+}
+
+.computer{
+    display: flex;
+    flex-direction: column;
+}
+
+.computer button {
+    margin: 10%;
+    border: none;
+    background: none;
+    outline: none;
+    width: min-content;
+    font-size: 3em;
+}
+
+.computer span {
+    margin-top: 10%;
+    font-size: 1rem;
+}
+
+
+.option{
+    margin: 10%;
+    border: none;
+    background: none;
+    outline: none;
+    width: min-content;
+    font-size: 3em;
+}
+
+.game span {
+    margin-top: 10%;
+    font-size: 1rem;
+}
+
+.option:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: 150ms;
+}
+
+.results h1 {
+    text-align: center;
+}
+
+.score {
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: xx-large;
+}
+
